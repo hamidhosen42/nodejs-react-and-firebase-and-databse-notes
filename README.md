@@ -1,5 +1,7 @@
 ### react-notes
 
+### Netlify react live commend ->then build file push netlify= npm run build
+
 ## React Install:
 ```
 npx create-react-app my-app
