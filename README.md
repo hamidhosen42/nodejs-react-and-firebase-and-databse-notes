@@ -2,7 +2,7 @@
 
 ### Netlify react live commend ->then build file push netlify= npm run build
 
-`
+```
 Api থেকে  data load করার জন্য
 
 ১. প্রথমে state ডিক্লেয়ার করবো।
@@ -14,7 +14,7 @@ Api থেকে  data load করার জন্য
 ৪. State ব্যবহারের মাধ্যে ডাটাগুরো সেট করতে হবে
 
 ৫. Dynamically  ডাটা গুলো দেখাতে হবে
-`
+```
 
 
 ## React Install:
