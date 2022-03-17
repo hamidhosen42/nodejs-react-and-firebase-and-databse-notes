@@ -2,9 +2,8 @@
 
 ### Netlify react live commend ->then build file push netlify= npm run build
 
+## Api থেকে  data load করার জন্য
 ```
-Api থেকে  data load করার জন্য
-
 ১. প্রথমে state ডিক্লেয়ার করবো।
 
 ২. useEffect ডিক্লেয়ার করবো
