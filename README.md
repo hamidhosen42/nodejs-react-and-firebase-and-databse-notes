@@ -71,3 +71,12 @@ YOU WILL ALSO LEARN
 10.	Wrap event handler with arrow function
 11.	Local stortage with more functionalites
 ```
+
+USESTATE()
+
+- USESTATE হলো একটি DYNAMIC STORAGE বা DATABASE . যেগুলো আমাদের COMPONENTS এর ভিতর DATA STORE করে রাখার জন্য থাকতে পারে।
+
+USEEFFECT()
+
+-যখন কোন COMPONENTS CREATE , UPDATE অথবা REMOVE হয় তখন এ ফাংশনগুলো কল হয়। এ সকল কিছু USEEFFECT নামক হুক দিয়ে ম্যানেজ করা হয়। এ USEEFFECT হুক এর ভিতরে প্রথম ARGUMENTS টা RUN হয় যখন আপনার PAGE এ প্রথম COMPONENTS টা CREATE হয়। এরপর আর কখন কখন RUN হবে তা নির্ভর করবে ২য় ARGUMENTS এর উপর। ২য় ARGUMENTS কে আমরা বলে দিব যে, STATE এর কোন জিনিসটি CHANGE হলে এই UESEFFECT ফাংশনটি আবার RUN করবে। এটাকে TRIGGER ও বলা হয়। এবং FINALLY এই COMPONENTS থেকে আমরা চাইলে আর একটা ফাংশন রিটার্ন করিয়ে দিতে পারি যখন আমাদের COMPONENTS টা PAGE থেকে UNMOUNT আর DELETE হবে, তখন এই ফাংশনটা RUN করেবে।
+-এটা REACT এর SIDE EFFECT হিসাবে কাজ করে।
