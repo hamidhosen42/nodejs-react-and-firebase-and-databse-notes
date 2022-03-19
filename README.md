@@ -128,8 +128,8 @@ class Welcome extends React.Component {
                  Props vs State:
 ### Props	State
 ```
-Props are read-only	State changes can be asynchronous
-Props can not be modified	State can be modified using this.setState
+Props are read-only	
+Props can not be modified	
 ```
 
 ### State
