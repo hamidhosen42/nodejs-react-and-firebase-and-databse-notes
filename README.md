@@ -2,6 +2,8 @@
 
 ### Netlify react live commend ->then build file push netlify= npm run build
 
+যদি github থেকে প্রজেক্ট run করতে চাই তাহলে clone করার পর npm install ইউস করতে হবে।কারণ  react file কিছ ডাটা মিছিং থাকে যেমন node-module
+
 ## Api থেকে  data load করার জন্য
 ```
 ১. প্রথমে state ডিক্লেয়ার করবো।
