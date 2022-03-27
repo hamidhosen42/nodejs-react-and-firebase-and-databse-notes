@@ -4,6 +4,8 @@
 
 যদি github থেকে প্রজেক্ট run করতে চাই তাহলে git clone করার পর npm install ইউস করতে হবে।কারণ  react file কিছ ডাটা মিছিং থাকে যেমন node-module
 
+[Install React Bootstrap in your react application](https://react-bootstrap.github.io/getting-started/introduction)
+
 ## Api থেকে  data load করার জন্য
 ```
 ১. প্রথমে state ডিক্লেয়ার করবো।
