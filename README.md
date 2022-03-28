@@ -8,6 +8,37 @@
 
 [Setup tailwind css with Create React App](https://tailwindcss.com/docs/guides/create-react-app)
 
+[React Axios](https://www.npmjs.com/package/axios)
+
+```const [phones, setPhones] = useState([]);
+
+    useEffect(()=>{
+        axios.get(
+          "https://openapi.programming-hero.com/api/phones?search=iphone"
+        ).then((data)=>{
+            const loadedData=data.data.data;
+            const phoneData=loadedData.map((phone)=>{
+                const parts=phone.slug.split('-');
+                const ph = {
+                  name: parts[0],
+                  value: parseInt(parts[1]),
+                };
+                return ph;
+            })
+            setPhones(phoneData);
+        })
+    },[]);
+    return (
+      <div>
+        <BarChart width={800} height={400} data={phones}>
+          <Bar dataKey="value" fill="#8884d8" />
+          <XAxis dataKey="name"></XAxis>
+          <Tooltip />
+          <YAxis></YAxis>
+        </BarChart>
+      </div>
+    );```
+
 ## Api থেকে  data load করার জন্য
 ```
 ১. প্রথমে state ডিক্লেয়ার করবো।
