@@ -268,4 +268,14 @@ SOMETHIG MORE WITH REACT ROUTE
           <YAxis></YAxis>
         </BarChart>
       </div>
-    );```
+    );
+  ```
+
+## React spring animation install : npm install react-spring
+
+## tailwind css with Create React App Note: 
+1.	Constructor()
+2.	getDerivedStateFromProps()
+3.	render()
+4.	componentDidMount()
+
