@@ -274,8 +274,22 @@ SOMETHIG MORE WITH REACT ROUTE
 ## React spring animation install : npm install react-spring
 
 ## tailwind css with Create React App Note: 
-1.	Constructor()
-2.	getDerivedStateFromProps()
-3.	render()
-4.	componentDidMount()
+1.	className="text-6xl"
+2.	className="flex items-center"
+3.	className="w-4 h-4 text-green-500 mr-2"
+4.	className="mr-16"
+5.	className="bg-indigo-400"
+6.	className="w-6 h-6 md:hidden"
+7.	dynamic : className={`md:flex justify-center absolute md:static bg-indigo-300 w-full duration-500 ease-in ${open ? "top-6" : "top-[-120px]"}`}
+8.	className="bg-indigo-300 p-4 mt-8 rounded-lg"
+9.	className="text-6xl font-mono text-white"
+10.	className="grid md:grid-cols-3 gap-3 mt-8"
+11.	className="bg-white p-4 rounded-lg"
+12.	className="bg-indigo-300 py-2 rounded text-xl font-bold"
+13.	className="text-5xl font-bold"
+14.	className="text-xl font-bold text-gray-500"
+15.	className="text-xl text-left"
+16.	className="bg-green-500 flex justify-center w-full py-2 rounded mt-6 text-white hover:text-green-700 font-bold"
+17.	className="w-6 h-6 ml-2"
+        
 
