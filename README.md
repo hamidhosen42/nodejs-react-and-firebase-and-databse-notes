@@ -6,6 +6,8 @@
 
 [Install React Bootstrap in your react application](https://react-bootstrap.github.io/getting-started/introduction)
 
+[Setup tailwind css with Create React App](https://tailwindcss.com/docs/guides/create-react-app)
+
 ## Api থেকে  data load করার জন্য
 ```
 ১. প্রথমে state ডিক্লেয়ার করবো।
