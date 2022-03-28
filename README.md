@@ -8,6 +8,8 @@
 
 [Setup tailwind css with Create React App](https://tailwindcss.com/docs/guides/create-react-app)
 
+[React-Route](https://reactrouter.com/docs/en/v6/getting-started/installation)
+
 ## Api থেকে  data load করার জন্য
 ```
 ১. প্রথমে state ডিক্লেয়ার করবো।
