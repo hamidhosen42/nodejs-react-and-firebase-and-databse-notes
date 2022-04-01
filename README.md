@@ -10,6 +10,8 @@
 
 [React-Route](https://reactrouter.com/docs/en/v6/getting-started/installation)
 
+## react router netlify 404  npm run build -> public folder -> _redirects file create -> /* /index.html   200
+
 ## Api থেকে  data load করার জন্য
 ```
 ১. প্রথমে state ডিক্লেয়ার করবো।
