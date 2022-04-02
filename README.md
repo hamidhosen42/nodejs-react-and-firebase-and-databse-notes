@@ -1,5 +1,25 @@
 ### react-notes
 
+### React 18 1st error handle
+```
+index.html file push =(import ReactDOMClient from "react-dom/client";)
+const root = ReactDOMClient.createRoot(document.getElementById("root"));
+
+full code: 
+
+import React from "react";
+import ReactDOMClient from "react-dom/client";
+import App from "./App";
+
+const root = ReactDOMClient.createRoot(document.getElementById("root"));
+
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
+
 ### Netlify react live commend ->then build file push netlify= npm run build
 
 যদি github থেকে প্রজেক্ট run করতে চাই তাহলে git clone করার পর npm install ইউস করতে হবে।কারণ  react file কিছ ডাটা মিছিং থাকে যেমন node-module
