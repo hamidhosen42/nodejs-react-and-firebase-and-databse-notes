@@ -2,7 +2,7 @@
 
 ### React 18 1st error handle
 ```
-index.html file push =(import ReactDOMClient from "react-dom/client";)
+index.js file push =(import ReactDOMClient from "react-dom/client";)
 const root = ReactDOMClient.createRoot(document.getElementById("root"));
 
 full code: 
