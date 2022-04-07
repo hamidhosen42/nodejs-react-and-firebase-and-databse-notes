@@ -429,8 +429,10 @@ SOMETHIG MORE WITH REACT ROUTE
 ৫. আর Route এর মধ্যে element নামে আরেকটা prop সেট করে দিবো তাহলেই কাজ শেষ।  
 
 
-Special Notes
+### Special Notes
+
 To install recharts run:
+
 npm install recharts --force
 
 If you see the following warning, ignore it for now.
@@ -440,6 +442,7 @@ For the dashboard, you can modify the data provided in data.json and you can loa
 [optional] To display ratings, you can use font-awesome stars or you can use react ratings website [class component might make it confusing] react rating github
 react rating demo
 
+```
 npm install --save react-rating
 install font-awesome for react
 import Rating from 'react-rating';
@@ -452,4 +455,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
     fullSymbol={<FontAwesomeIcon style={{color: 'goldenrod'}} icon={faStar} />}
     readonly
 ></Rating>
+```
+
 Please note, you will see an warning while using react rarting react-dom.development.js:86 Warning: Using UNSAFE_componentWillReceiveProps in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
