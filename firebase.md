@@ -1,4 +1,4 @@
-### google sign in github sign in
+### google sign in github sign in and facebook sign in
 
 ```
 import "./App.css";
@@ -6,7 +6,7 @@ import app from "./firebase.init";
 import { getAuth, signInWithPopup, signOut } from "firebase/auth";
 import { GoogleAuthProvider } from "firebase/auth";
 import { useState } from "react";
-import { GithubAuthProvider } from "firebase/auth";
+import { GithubAuthProvider, FacebookAuthProvider } from "firebase/auth";
 
 const auth = getAuth(app);
 
@@ -15,6 +15,7 @@ function App() {
 
   const googleProvider = new GoogleAuthProvider();
   const githubProvider = new GithubAuthProvider();
+  const provider = new FacebookAuthProvider();
 
   const handleGoogleSignIn = () => {
     signInWithPopup(auth,googleProvider)
@@ -26,6 +27,18 @@ function App() {
         console.log(error);
       });
   };
+
+  const handleFacebookSignIn=()=>
+  {
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        const user = result.user;
+        setUser(user);
+      })
+      .catch((error) => {
+        console.error('error',error)
+      });
+  }
 
   const handleGoogleSignOut = () => {
     signOut(auth)
@@ -56,6 +69,7 @@ function App() {
       ) : (
         <>
           <button onClick={handleGoogleSignIn}>Google Sign In</button>
+          <button onClick={handleFacebookSignIn}>Facebook Sign In</button>
           <button onClick={handleGithubSignIn}>Github Sign In</button>
         </>
       )}
