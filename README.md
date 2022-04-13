@@ -20,6 +20,29 @@ root.render(
 );
 ```
 
+### Firebase API key Private:
+
+```
+File  name : .env.local
+Than push->
+  REACT_APP_apiKey=AIzaSyCICvPV0PdUcFwao-3p-xD4gzZY4W4tIcM
+  REACT_APP_authDomain=genius-car-service-firebase.firebaseapp.com
+  REACT_APP_projectId=genius-car-service-firebase
+  REACT_APP_storageBucket=genius-car-service-firebase.appspot.com
+  REACT_APP_messagingSenderId=312755558112
+  REACT_APP_appId=1:312755558112:web:25dd64c89af48e4f06e285
+Firebase.init:
+const firebaseConfig = {
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId,
+};
+
+```
+
 ### Netlify react live commend ->then build file push netlify= npm run build
 
 যদি github থেকে প্রজেক্ট run করতে চাই তাহলে git clone করার পর npm install ইউস করতে হবে।কারণ  react file কিছ ডাটা মিছিং থাকে যেমন node-module
