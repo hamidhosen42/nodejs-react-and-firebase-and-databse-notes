@@ -44,6 +44,7 @@ const firebaseConfig = {
 ```
 
 ### Netlify react live commend ->then build file push netlify= npm run build
+### Netlify Firebase Google , facebook, github not work but firebase hosting work
 
 যদি github থেকে প্রজেক্ট run করতে চাই তাহলে git clone করার পর npm install ইউস করতে হবে।কারণ  react file কিছ ডাটা মিছিং থাকে যেমন node-module
 
