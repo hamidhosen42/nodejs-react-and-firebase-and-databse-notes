@@ -1,3 +1,10 @@
+ ### node server auto run
+ 1. npm install -g nodemon # or using yarn: yarn global add nodemon
+ 2. optional (npm install --save-dev nodemon)
+ 3. pakage.json -> script->     "start": "node index.js",
+    "start-dev": "nodemon index.js",
+ 4. cmd -> nodemon index.js
+ 
  ### Basic server setup(express js)
  * --------------------
  * 1. create a folder (manually or mkdir)
