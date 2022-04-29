@@ -32,8 +32,10 @@ async function run() {
       const query = {};
       const cursor = userCollection.find(query);
       const users = await cursor.toArray();
+      const users = await cursor.limit(10).toArray();//limit data show
       res.send(users);
     });
+    
 
     //update user id pass
     app.get("/user/:id", async (req, res) => {
