@@ -1,6 +1,7 @@
 ### react-notes
 
 | Hamid | Hosen | Azad |
+| --- |  --- | --- |
 | One | Two | Three |
 
 ### React 18 1st error handle
