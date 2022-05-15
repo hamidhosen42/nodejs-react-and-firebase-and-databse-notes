@@ -4,8 +4,9 @@
      * app.get('/booking') // get all bookings in this collection. or get more than one or by filter
      * app.get('/booking/:id') // get a specific booking 
      * app.post('/booking') // add a new booking
-     * app.patch('/booking/:id) //
-     * app.delete('/booking/:id) //
+     * app.put('/booking') // add a update
+     * app.patch('/booking/:id) //update
+     * app.delete('/booking/:id) //delete
     */
 ```
 
