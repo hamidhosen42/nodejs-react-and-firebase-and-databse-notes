@@ -1,6 +1,7 @@
  ### node server install:
  1. mkdir foldar_name
- 2. npm i express cors dotenv mongodb jsonwebtoken
+ 2. npm init -y
+ 3. npm i express cors dotenv mongodb jsonwebtoken
  
  ### node server auto run
  1. npm install -g nodemon # or using yarn: yarn global add nodemon
