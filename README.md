@@ -7,6 +7,24 @@
 | One | Two | Three |
 | One | Two | Three |
 
+### React Responsive
+```
+@media screen and (max-width: 1000px) {
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .products-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cart-container {
+    width: 250px;
+  }
+}
+```
+
 ### React 18 1st error handle
 ```
 index.js file push =(import ReactDOMClient from "react-dom/client";)
